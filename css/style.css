@@ -1,0 +1,87 @@
+.text-green{
+    color: rgb(109, 171, 45);
+}
+
+.mt-6{
+    margin-top: 6rem;
+}
+
+.btn-green{
+    background-color: rgb(109, 171, 45);
+    color: white;
+}
+
+.btn-green:hover{
+    background-color: rgb(109, 171, 45);
+    color: white;
+}
+
+.py-6{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+input{
+    height: 50px;
+}
+
+.bg-head{
+    background-image: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3)) , url("img/Chi.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#title{
+    color: white;
+}
+
+#collections{
+    background-color: #f6f6f6;
+}
+
+.card{
+    max-width: 30em;
+    padding: 0.5em;
+}
+
+.card .side-card-img{
+    max-width: 30%;
+}
+
+@media screen and (max-width: 475px) {
+    .side-card{
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 991px) {
+    .side-card img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 767px) {
+    .side-card img{
+        max-width: 30%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .side-card{
+        flex-direction: row;
+    }
+}
+
+#download{
+    background:linear-gradient(rgb(109, 171, 45, 0.7),rgb(109, 171, 45, 0.7)) , url("img/wallhaven-0ppx8j.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.bg-green{
+    background-color: rgb(109, 171, 45);
+    color: white;
+}
